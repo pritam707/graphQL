@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.addUser {
+  color: rgb(83, 127, 119);
+}
+
+.addUser h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.field {
+  margin-top: 30px;
+  margin: 10px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.field input {
+  border: none;
+  padding: 2px 5px;
+}
+
+form label {
+  margin-right: 8px;
+  font-size: 30px;
+}
+
+form input {
+  width: auto;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.field button {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+p {
+  color: red;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+#msg {
+  color: rgb(4, 255, 0);
+  margin-left: 35px;
+  margin-top: 20px;
+}

@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.User {
+  color: rgb(83, 127, 119);
+}
+
+.User h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.User table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 70%;
+  height: 100%;
+  text-align: center;
+  color: aliceblue;
+}
+
+.User th {
+  font-size: 30px;
+  padding: 20px;
+  border-bottom: 1px solid wheat;
+}
+
+.User td {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.add button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.add {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  z-index: 2;
+  margin-top: -30px;
+  margin-right: 40px;
+}
+
+table button {
+  width: 80px;
+  padding: 8px;
+  border-radius: 8px;
+}
